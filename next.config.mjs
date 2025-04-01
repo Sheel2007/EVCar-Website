@@ -22,6 +22,7 @@ const nextConfig = {
     parallelServerCompiles: true,
   },
   output: 'export',
+  basePath: '/EVCar-Website',
 }
 
 mergeConfig(nextConfig, userConfig)
