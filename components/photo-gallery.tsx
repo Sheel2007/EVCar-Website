@@ -5,9 +5,9 @@ import Image from "next/image"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 import frontview from "@/public/front-view.png"
-// import sideview from "@/public/side-view.png"
-// import circuit from "../public/circuit.png"
-// import screen from "../public/screen.png"
+import sideview from "@/public/side-view.png"
+import circuit from "@/public/circuit.png"
+import screen from "@/public/screen.png"
 
 const images = [
   {
@@ -17,17 +17,17 @@ const images = [
     caption: "Front view of our electric vehicle prototype",
   },
   {
-    src: "/side-view.png",
+    src: sideview,
     alt: "Side View",
     caption: "Team working on the car",
   },
   {
-    src: "/circuit.png",
+    src: circuit,
     alt: "MCP4725",
     caption: "Voltage control circuit",
   },
   {
-    src: "/screen.png",
+    src: screen,
     alt: "Screen",
     caption: "User inferface of the car",
   },
