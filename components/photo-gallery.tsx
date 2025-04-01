@@ -12,7 +12,7 @@ import { motion, AnimatePresence } from "framer-motion"
 const images = [
   {
     // src: "/placeholder.svg?height=600&width=800",
-    src: "/front-view.png",
+    src: "https://.github.com/Sheel2007/EVCar-Website/public/front-view.png",
     alt: "Electric Vehicle Front View",
     caption: "Front view of our electric vehicle prototype",
   },
@@ -61,7 +61,7 @@ export function PhotoGallery() {
             className="w-full h-full relative"
           >
             <Image
-              src={images[currentIndex].src || "/front-view.png"}
+              src={images[currentIndex].src || "/placeholder.svg"}
               alt={images[currentIndex].alt}
               fill
               className="object-cover"
