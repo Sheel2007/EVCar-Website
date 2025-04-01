@@ -61,7 +61,7 @@ export function PhotoGallery() {
             className="w-full h-full relative"
           >
             <Image
-              src={images[currentIndex].src || "/placeholder.svg"}
+              src={images[currentIndex].src || "/front-view.png"}
               alt={images[currentIndex].alt}
               fill
               className="object-cover"
