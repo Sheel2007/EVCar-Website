@@ -12,7 +12,7 @@ import screen from "../public/screen.png"
 const images = [
   {
     // src: "/placeholder.svg?height=600&width=800",
-    src: { frontview },
+    src: "../public/front-view.png",
     alt: "Electric Vehicle Front View",
     caption: "Front view of our electric vehicle prototype",
   },
