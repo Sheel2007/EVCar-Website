@@ -5,6 +5,7 @@ import { FadeIn } from "@/components/fade-in"
 import { CircuitLines } from "@/components/circuit-lines"
 import { PhaseDetails } from "@/components/phase-details"
 import { Footer } from "@/components/footer"
+import carCover from "@/public/car-cover.png"
 
 export default function Home() {
   return (
@@ -34,7 +35,7 @@ export default function Home() {
               <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/20 to-teal-500/20 rounded-xl blur-xl"></div>
               <div className="relative rounded-xl overflow-hidden border border-gray-800">
                 <Image
-                  src="/car-cover.png?height=600&width=800"
+                  src={ carCover }
                   alt="Switch Labs Electric Vehicle"
                   width={800}
                   height={600}
