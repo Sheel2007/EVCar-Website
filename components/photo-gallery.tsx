@@ -4,10 +4,10 @@ import { useState } from "react"
 import Image from "next/image"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
-import frontview from "@/../public/front-view.png"
-import sideview from "@/../public/side-view.png"
-import circuit from "@/../public/circuit.png"
-import screen from "@/../public/screen.png"
+import frontview from "../public/front-view.png"
+import sideview from "../public/side-view.png"
+import circuit from "../public/circuit.png"
+import screen from "../public/screen.png"
 
 const images = [
   {
