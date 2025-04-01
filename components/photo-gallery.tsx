@@ -4,32 +4,32 @@ import { useState } from "react"
 import Image from "next/image"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
+import frontview from "@/public/front-view.png"
+import sideview from "@/public/side-view.png"
+import circuit from "@/public/circuit.png"
+import screen from "@/public/screen.png"
 
 const images = [
   {
-    src: "/placeholder.svg?height=600&width=800",
+    // src: "/placeholder.svg?height=600&width=800",
+    src: { frontview },
     alt: "Electric Vehicle Front View",
     caption: "Front view of our electric vehicle prototype",
   },
   {
-    src: "/placeholder.svg?height=600&width=800",
-    alt: "Raspberry Pi Control System",
-    caption: "Raspberry Pi control system with MCP4725 DAC",
+    src: { sideview },
+    alt: "Side View",
+    caption: "Team working on the car",
   },
   {
-    src: "/placeholder.svg?height=600&width=800",
-    alt: "Circuit Implementation",
-    caption: "Implementation of the throttle control circuit",
+    src: { circuit },
+    alt: "MCP4725",
+    caption: "Voltage control circuit",
   },
   {
-    src: "/placeholder.svg?height=600&width=800",
-    alt: "Team Working on Vehicle",
-    caption: "Our team working on the electric vehicle",
-  },
-  {
-    src: "/placeholder.svg?height=600&width=800",
-    alt: "Testing Phase",
-    caption: "Testing the throttle control system",
+    src: { screen },
+    alt: "Screen",
+    caption: "User inferface of the car",
   },
 ]
 
