@@ -5,7 +5,7 @@ import { FadeIn } from "@/components/fade-in"
 import { CircuitLines } from "@/components/circuit-lines"
 import { PhaseDetails } from "@/components/phase-details"
 import { Footer } from "@/components/footer"
-import carCover from "@/public/car-cover.png"
+import carCover from "@/public/front-view-cc.png"
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
             <div className="lg:w-1/2">
               <FadeIn>
                 <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-teal-400 text-transparent bg-clip-text">
-                  Switch Labs EV
+                  Career Center EV
                 </h1>
                 <p className="text-xl text-gray-300 mb-8">
                   Pioneering the future of autonomous electric vehicles through innovative engineering and sustainable
