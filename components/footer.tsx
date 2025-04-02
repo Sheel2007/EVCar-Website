@@ -13,25 +13,23 @@ export function Footer() {
             will help us continue developing autonomous driving technology and provide valuable learning experiences for
             students.
           </p>
-          <Link
-            href="https://www.gofundme.com/f/help-acc-students-drive-innovation-forward"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-8 py-3 bg-gradient-to-r from-pink-500 to-red-500 rounded-full text-white font-medium hover:shadow-lg hover:shadow-red-500/20 transition-all duration-300 flex items-center gap-2"
-          >
-            <Heart className="w-5 h-5" /> Donate Now
-          </Link>
+          <div className="flex gap-4 mt-4">
+            <Link
+              href="https://www.gofundme.com/f/help-acc-students-drive-innovation-forward"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 bg-gradient-to-r from-pink-500 to-red-500 rounded-full text-white font-medium hover:shadow-lg hover:shadow-red-500/20 transition-all duration-300 flex items-center gap-2"
+            >
+              <Heart className="w-5 h-5" /> Donate Now
+            </Link>
 
-          {/* Instagram Link */}
-          <div className="mt-4">
             <Link
               href="https://www.instagram.com/arcc_ev/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300 hover:text-pink-500 transition-colors duration-300"
+              className="px-8 py-3 bg-gradient-to-r from-blue-500 to-blue-700 rounded-full text-white font-medium hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300 flex items-center gap-2"
             >
-             <FaInstagram className="w-6 h-6" /> {/* Use the Instagram icon */}
-             <span className="ml-2">Follow Us on Instagram</span> {/* Text next to the icon */}
+              <FaInstagram className="w-6 h-6" /> {/* Instagram icon */}
             </Link>
           </div>
 
