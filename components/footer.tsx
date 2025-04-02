@@ -21,6 +21,26 @@ export function Footer() {
             <Heart className="w-5 h-5" /> Donate Now
           </Link>
 
+          {/* Instagram Link */}
+          <div className="mt-4">
+            <Link
+              href="https://www.instagram.com/arcc_ev/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-pink-500 transition-colors duration-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-6 h-6 inline-block"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 8a6 6 0 10-8 0 6 6 0 008 0zM12 12v.01M21 12.5c0 4.5-3.5 8-8 8s-8-3.5-8-8 3.5-8 8-8 8 3.5 8 8z" />
+              </svg>
+            </Link>
+          </div>
+
           <div className="mt-12 pt-8 border-t border-gray-800 w-full text-gray-400 text-sm">
             <p>© {new Date().getFullYear()} Switch Labs EV Project. All rights reserved.</p>
           </div>
