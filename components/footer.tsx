@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Heart } from "lucide-react"
+import { FaInstagram } from "react-icons/fa"
 
 export function Footer() {
   return (
@@ -29,15 +30,7 @@ export function Footer() {
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-pink-500 transition-colors duration-300"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-6 h-6 inline-block"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 8a6 6 0 10-8 0 6 6 0 008 0zM12 12v.01M21 12.5c0 4.5-3.5 8-8 8s-8-3.5-8-8 3.5-8 8-8 8 3.5 8 8z" />
-              </svg>
+              <FaInstagram className="w-6 h-6 inline-block" /> {/* Use the Instagram icon */}
             </Link>
           </div>
 
