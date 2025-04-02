@@ -18,7 +18,7 @@ export function Footer() {
               href="https://www.gofundme.com/f/help-acc-students-drive-innovation-forward"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-3 bg-gradient-to-r from-pink-500 to-red-500 rounded-full text-white font-medium hover:shadow-lg hover:shadow-red-500/20 transition-all duration-300 flex items-center gap-2"
+              className="px-8 py-3 bg-gradient-to-r from-red-500 to-orange-500 rounded-full text-white font-medium hover:shadow-lg hover:shadow-red-500/20 transition-all duration-300 flex items-center gap-2"
             >
               <Heart className="w-5 h-5" /> Donate Now
             </Link>
@@ -27,9 +27,9 @@ export function Footer() {
               href="https://www.instagram.com/arcc_ev/"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-700 rounded-full text-white font-medium hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300 flex items-center gap-2 text-sm"
+              className="px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-white font-medium hover:shadow-lg hover:shadow-purple-500/20 transition-all duration-300 flex items-center gap-2"
             >
-              <FaInstagram className="w-4 h-4" /> {/* Instagram icon */}
+              <FaInstagram className="w-5 h-5" /> {/* Instagram icon */}
             </Link>
           </div>
 
