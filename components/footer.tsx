@@ -27,9 +27,9 @@ export function Footer() {
               href="https://www.instagram.com/arcc_ev/"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-3 bg-gradient-to-r from-blue-500 to-blue-700 rounded-full text-white font-medium hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300 flex items-center gap-2"
+              className="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-700 rounded-full text-white font-medium hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300 flex items-center gap-2 text-sm"
             >
-              <FaInstagram className="w-6 h-6" /> {/* Instagram icon */}
+              <FaInstagram className="w-4 h-4" /> {/* Instagram icon */}
             </Link>
           </div>
 
