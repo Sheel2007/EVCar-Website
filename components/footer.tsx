@@ -30,7 +30,8 @@ export function Footer() {
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-pink-500 transition-colors duration-300"
             >
-              <FaInstagram className="w-6 h-6 inline-block" /> {/* Use the Instagram icon */}
+             <FaInstagram className="w-6 h-6" /> {/* Use the Instagram icon */}
+             <span className="ml-2">Follow Us on Instagram</span> {/* Text next to the icon */}
             </Link>
           </div>
 
