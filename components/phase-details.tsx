@@ -17,6 +17,7 @@ const phaseData = {
     ],
     scalability:
       "This phase lays the groundwork for a modular and expandable control system. It is designed to support the seamless integration of additional components such as sensors, decision-making algorithms, and higher-level autonomous functionality in future development phases.",
+    documentation: "https://docs.google.com/document/d/198ZGn4bPbO_Ejp-BZFpTSupH--6fiNbeu99o9SlmzuQ/edit?usp=sharing",
   },
   phase2: {
     title: "Computer-Controlled Braking",
@@ -119,6 +120,18 @@ export function PhaseDetails() {
                     </div>
                   </div>
                 ))}
+              </div>
+
+              {/* Documentation Link */}
+              <div className="mb-6">
+                <Link
+                  href={phaseData[selectedPhase as keyof typeof phaseData].documentation}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-300 hover:underline"
+                >
+                  View Phase 1 Documentation
+                </Link>
               </div>
 
               {phaseData[selectedPhase as keyof typeof phaseData].scalability && (
