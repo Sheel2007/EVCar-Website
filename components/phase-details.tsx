@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { PhaseCard } from "./phase-card"
+import Link from "next/link"
 
 // Phase data
 const phaseData = {
