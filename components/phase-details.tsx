@@ -124,16 +124,18 @@ export function PhaseDetails() {
               </div>
 
               {/* Documentation Link */}
-              <div className="mb-6">
-                <Link
-                  href={phaseData[selectedPhase as keyof typeof phaseData].documentation}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-300 hover:underline"
-                >
-                  View Phase 1 Documentation
-                </Link>
-              </div>
+              {phaseData[selectedPhase as keyof typeof phaseData].documentation && (
+                <div className="mb-6">
+                  <Link
+                    href={phaseData[selectedPhase as keyof typeof phaseData].documentation}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-300 hover:underline"
+                  >
+                    View Documentation
+                  </Link>
+                </div>
+              )}
 
               {phaseData[selectedPhase as keyof typeof phaseData].scalability && (
                 <>
