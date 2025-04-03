@@ -9,7 +9,7 @@ import sideview from "@/public/side-view.png"
 import circuit from "@/public/circuit.png"
 import screen from "@/public/screen.png"
 import frame from "@/public/frame.png"
-import electronic from "@/public/electronic.png"
+import electronic from "@/public/electronics.png"
 
 const images = [
   {
