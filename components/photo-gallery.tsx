@@ -8,8 +8,22 @@ import frontview from "@/public/front-view.png"
 import sideview from "@/public/side-view.png"
 import circuit from "@/public/circuit.png"
 import screen from "@/public/screen.png"
+import frame from "@/public/frame.png"
+import electronic from "@/public/electronic.png"
 
 const images = [
+  {
+    // src: "/placeholder.svg?height=600&width=800",
+    src: frame,
+    alt: "Frame",
+    caption: "Frame of prototype",
+  },
+  {
+    // src: "/placeholder.svg?height=600&width=800",
+    src: electronic,
+    alt: "Electronics",
+    caption: "Electronics Progress",
+  },
   {
     // src: "/placeholder.svg?height=600&width=800",
     src: frontview,
