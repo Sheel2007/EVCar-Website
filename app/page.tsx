@@ -26,9 +26,13 @@ export default function Home() {
                   Pioneering the future of autonomous electric vehicles through innovative engineering and sustainable
                   technology.
                 </p>
-                <button className="px-8 py-3 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full text-white font-medium hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300">
+                <a href="#overview">
+                  <button className="px-8 py-3 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full text-white font-medium hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300"></button>
+                </a>
+
+                {/* <button className="px-8 py-3 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full text-white font-medium hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300">
                   <a href="#overview">Learn More</a>
-                </button>
+                </button> */}
               </FadeIn>
             </div>
             <div className="lg:w-1/2 relative">
