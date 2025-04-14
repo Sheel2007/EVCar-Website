@@ -27,7 +27,7 @@ export default function Home() {
                   technology.
                 </p>
                 <a href="#overview">
-                  <button className="px-8 py-3 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full text-white font-medium hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300"></button>
+                  <button className="px-8 py-3 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full text-white font-medium hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300">Learn More</button>
                 </a>
 
                 {/* <button className="px-8 py-3 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full text-white font-medium hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300">
