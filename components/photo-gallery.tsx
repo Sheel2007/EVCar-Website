@@ -8,22 +8,52 @@ import frontview from "@/public/front-view.png"
 import sideview from "@/public/side-view.png"
 import circuit from "@/public/circuit.png"
 import screen from "@/public/screen.png"
-import frame from "@/public/frame.png"
+import paint from "@/public/paint.png"
 import electronic from "@/public/electronics.png"
+import rods from "@/public/rods.png"
+import frame from "@/public/frame.png"
+import motor from "@/public/motor.png"
+import seat from "@/public/front-seat.png"
+import frontelectronics from "@/public/front-electronics.png"
 
 const images = [
   {
-    // src: "/placeholder.svg?height=600&width=800",
+    src: rods,
+    alt: "Rods",
+    caption: "Start of Car",
+  },
+  {
     src: frame,
     alt: "Frame",
-    caption: "Frame of prototype",
+    caption: "Frame Completion",
   },
   {
     // src: "/placeholder.svg?height=600&width=800",
-    src: electronic,
-    alt: "Electronics",
-    caption: "Electronics Progress",
+    src: paint,
+    alt: "Paint",
+    caption: "New Paint Job",
   },
+  {
+    src: motor,
+    alt: "Motor",
+    caption: "Motor Installation"
+  },
+  {
+    src: seat,
+    alt: "Front Seat",
+    caption: "Front Seat"
+  },
+  {
+    src: frontelectronics,
+    alt: "Front Electronics",
+    caption: "Electronics in the Front"
+  },
+  // {
+  //   // src: "/placeholder.svg?height=600&width=800",
+  //   src: electronic,
+  //   alt: "Electronics",
+  //   caption: "Electronics Progress",
+  // },
   {
     // src: "/placeholder.svg?height=600&width=800",
     src: frontview,
