@@ -4,8 +4,8 @@ import { useState } from "react"
 import Image from "next/image"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
-import frontview from "@/public/front-view.png"
-import sideview from "@/public/side-view.png"
+import frontview from "@/public/frontview.png"
+import sideview from "@/public/sideview.png"
 import circuit from "@/public/circuit.png"
 import screen from "@/public/screen.png"
 import paint from "@/public/paint.png"
@@ -58,18 +58,18 @@ const images = [
     // src: "/placeholder.svg?height=600&width=800",
     src: frontview,
     alt: "Electric Vehicle Front View",
-    caption: "Front view of our electric vehicle prototype",
+    caption: "Front view of our electric vehicle",
   },
   {
     src: sideview,
     alt: "Side View",
     caption: "Team working on the car",
   },
-  {
-    src: circuit,
-    alt: "MCP4725",
-    caption: "Voltage control circuit",
-  },
+  // {
+  //   src: circuit,
+  //   alt: "MCP4725",
+  //   caption: "Voltage control circuit",
+  // },
   {
     src: screen,
     alt: "Screen",
